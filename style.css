@@ -304,7 +304,7 @@ nav {
 }
 
 .pill--gold {
-  background: rgba(26, 39, 68, 0.08);
+  background: rgba(26, 39, 68, 0.28);
   color: var(--navy);
   border: 1.5px solid var(--gold);
 }
