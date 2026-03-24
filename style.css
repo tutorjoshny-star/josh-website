@@ -550,10 +550,11 @@ footer {
 
 /* ── RESPONSIVE ── */
 @media (max-width: 700px) {
-  nav { padding: 0 20px; }
-  .nav-links { gap: 14px; }
-  .nav-links a { font-size: 0.75rem; }
+  nav { padding: 12px 20px; height: auto; flex-wrap: wrap; gap: 8px; }
+  .nav-links { gap: 10px; }
+  .nav-links a { font-size: 0.68rem; }
   .hero, .page-hero { padding: 52px 24px 48px; }
+  .hero-cta { display: flex; flex-direction: column; gap: 10px; }
   .testimonial-band { padding: 36px 24px; }
   .main { padding: 48px 24px; }
   .services-grid { grid-template-columns: 1fr; gap: 32px; }
@@ -562,5 +563,7 @@ footer {
   .contact-layout { grid-template-columns: 1fr; gap: 40px; }
   .field-row { grid-template-columns: 1fr; }
   footer { padding: 48px 24px; }
-  .btn-outline { margin-left: 0; margin-top: 10px; display: block; text-align: center; }
+  .btn-outline { margin-left: 0; margin-top: 0; display: block; text-align: center; }
+  .about-layout { flex-direction: column; }
+  .about-image { width: 100%; max-width: 320px; }
 }
