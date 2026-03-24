@@ -554,6 +554,7 @@ footer {
   .nav-links { gap: 10px; }
   .nav-links a { font-size: 0.68rem; }
   .hero, .page-hero { padding: 52px 24px 48px; }
+  .btn { text-align: center; display: block; }
   .hero-cta { display: flex; flex-direction: column; gap: 10px; }
   .testimonial-band { padding: 36px 24px; }
   .main { padding: 48px 24px; }
