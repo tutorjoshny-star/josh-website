@@ -69,7 +69,7 @@ nav {
 /* ── HERO ── */
 .hero {
   background-color: var(--navy);
-  background-image: url('marble-dark.png');
+  background-image: url('marble_dark.png.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
