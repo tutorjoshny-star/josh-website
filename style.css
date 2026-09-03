@@ -3,7 +3,7 @@
 :root {
   --navy: #1e3629;
   --navy-light: #2c4d3d;
-  --gold: #a9822f;
+  --gold: #bb9038;
   --gold-light: #d3b168;
   --cream: #ede9df;
   --white: #fcfbf8;
@@ -152,7 +152,7 @@ nav {
 .hero-sub {
   color: rgba(255,255,255,0.6);
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0;
