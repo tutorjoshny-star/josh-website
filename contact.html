@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Tutoring with Josh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html">Tutoring <span>with Josh</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="subjects.html">Subjects</a></li>
+      <li><a href="sessions.html">Sessions &amp; Rates</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">Let's talk</div>
+      <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 3rem);">Get in Touch</h1>
+      <p class="hero-sub">New here? Your first conversation is a free 30-minute consultation — no obligation.</p>
+      <div class="hero-cta">
+        <a href="#book" class="btn">Book Your Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="main">
+
+    <section class="content-section" id="book" style="text-align:center;">
+      <p class="section-label">Free Consultation</p>
+      <h2 class="services-heading" style="font-size:1.7rem; margin-bottom:10px;">Book Your Free 30-Minute Consultation</h2>
+      <p class="approach-text" style="max-width:520px; margin:0 auto 24px;">Pick a time that works for you — no forms, no back-and-forth. We'll talk through your student's goals and see if it's a good fit.</p>
+      <div style="display:flex; justify-content:center;">
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+          var target = document.currentScript;
+          window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ16hfTyadDiDKeo-Ryy1z4zU0WQ5nzunHLrdgZyc2hhLpg_nw2c9n1gdTldPTIu9C_6tH-KxH49?gv=true',
+              color: '#a9822f',
+              label: 'Book Your Free Consultation',
+              target,
+            });
+          });
+        })();
+        </script>
+        <!-- end Google Calendar Appointment Scheduling -->
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <div class="contact-layout">
+
+      <div class="contact-info">
+        <p class="section-label">Direct Contact</p>
+        <ul class="contact-list">
+          <li class="contact-row">
+            <span class="contact-label">Phone</span>
+            <a class="contact-value" href="tel:6317087422">(631) 708-7422</a>
+          </li>
+          <li class="contact-row">
+            <span class="contact-label">Email</span>
+            <a class="contact-value" href="mailto:tutorjoshny@gmail.com">tutorjoshny@gmail.com</a>
+          </li>
+          <li class="contact-row">
+            <span class="contact-label">Area</span>
+            <span class="contact-value">Based in Nassau County, NY <br/> Sessions held online — available anywhere</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-form-wrap">
+        <p class="section-label">Or Send a Message</p>
+        <p class="rate-desc" style="margin-bottom:18px;">Have a question first, or just prefer email? Send a message here instead — no booking required.</p>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="3a1e48f5-1595-4da3-b4a2-e59e41908c08" />
+          <input type="hidden" name="subject" value="New Tutoring Inquiry" />
+          <input type="hidden" name="redirect" value="false" />
+
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@email.com" required />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="(631) 555-0000" />
+          </div>
+
+          <div class="field">
+            <label for="subject">Subject(s) Needing Help</label>
+            <input type="text" id="subject-help" name="subject_help" placeholder="e.g. SAT, Precalculus" />
+          </div>
+
+          <div class="field">
+            <label for="message">Anything else?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Grade level, availability, goals — whatever's helpful."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner footer-simple">
+      <p class="footer-headline">Reach out anytime.</p>
+      <p style="color:rgba(255,255,255,0.45); font-size:0.9rem; margin-top:8px;">I typically respond within 24 hours.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
